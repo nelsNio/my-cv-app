@@ -3,8 +3,11 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-
+import {AvatarHomePage} from '../avatar-home/avatar-home.page'
+import {MenuBarPage} from '../menu-bar/menu-bar.page'
 import { HomePage } from './home.page';
+import { from } from 'rxjs';
+
 
 @NgModule({
   imports: [
@@ -18,6 +21,6 @@ import { HomePage } from './home.page';
       }
     ])
   ],
-  declarations: [HomePage]
+  declarations: [HomePage,AvatarHomePage,MenuBarPage]
 })
 export class HomePageModule {}
