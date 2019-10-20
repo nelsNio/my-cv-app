@@ -3,9 +3,9 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import {AvatarHomePage} from '../avatar-home/avatar-home.page'
 import {MenuBarPage} from '../menu-bar/menu-bar.page'
 import { HomePage } from './home.page';
+import {ItemsPage} from '../items/items.page'
 import { from } from 'rxjs';
 
 
@@ -21,6 +21,6 @@ import { from } from 'rxjs';
       }
     ])
   ],
-  declarations: [HomePage,AvatarHomePage,MenuBarPage]
+  declarations: [HomePage,MenuBarPage,ItemsPage]
 })
 export class HomePageModule {}

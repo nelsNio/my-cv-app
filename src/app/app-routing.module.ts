@@ -7,6 +7,8 @@ const routes: Routes = [
   { path: 'avatar-home', loadChildren: './avatar-home/avatar-home.module#AvatarHomePageModule' },
   { path: 'menu-bar', loadChildren: './menu-bar/menu-bar.module#MenuBarPageModule' },
   { path: 'projects', loadChildren: './projects/projects.module#ProjectsPageModule' },
+  { path: 'items', loadChildren: './items/items.module#ItemsPageModule' },
+  { path: 'studies', loadChildren: './studies/studies.module#StudiesPageModule' },
 ];
 
 @NgModule({

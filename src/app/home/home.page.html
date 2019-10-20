@@ -4,15 +4,11 @@
 
 <ion-content>
     
-   
-  <!-- Other types -->
-
-
 
   <ion-card>
       <img src="../assets/imgs/logo.png" />
     <ion-card-header>
-        <ion-progress-bar type="indeterminate"></ion-progress-bar>
+        <ion-progress-bar type="indeterminate" color="dark" ></ion-progress-bar>
       
       <ion-card-subtitle>FULL <strong>STACK</strong>  DESARROLLADOR</ion-card-subtitle>
       <ion-card-title>PASIÓN POR <strong>APRENDER</strong>  INVESTIGAR INNOVAR DESARROLLAR</ion-card-title>
@@ -23,49 +19,20 @@
         La inteligencia se demuestra no por los actos individuales, sino por saberse rodear de gente bondadosa y desinteresada
     </ion-card-content>
   </ion-card>
-  
-  <!-- <ion-card>
-      <ion-progress-bar type="indeterminate"></ion-progress-bar>
-      
-    <ion-card-content>
-      This is content, without any paragraph or header tags,
-      within an ion-card-content element.
-    </ion-card-content>
-  </ion-card> -->
-  
-  <ion-card>
-    <ion-item href="#" class="activated">
-      <ion-icon name="wifi" slot="start"></ion-icon>
-      <ion-label>YO</ion-label>
-    </ion-item>
-  
-    <ion-item href="#">
-      <ion-icon name="wine" slot="start"></ion-icon>
-      <ion-label>My Skills</ion-label>
-    </ion-item>
-  
-    <ion-item href="#" class="activated">
-      <ion-icon name="warning" slot="start"></ion-icon>
-      <ion-label>Etudios</ion-label>
-    </ion-item>
-  
-    <ion-item>
-      <ion-icon name="walk" slot="start"></ion-icon>
-      <ion-label>Proyectos</ion-label>
-    </ion-item>
-  </ion-card>
 
-  <ion-progress-bar type="indeterminate" reversed="true"></ion-progress-bar>
   
+  <!-- lista de items -->
+  <app-items></app-items>
   
     <!-- fab placed to the top start -->
-    <ion-fab vertical="center" horizontal="start" slot="fixed">
-      <ion-fab-button>
+    <ion-fab vertical="center" horizontal="start" slot="fixed" color="dark">
+      <ion-fab-button color="dark">
         <ion-icon name="arrow-dropright"></ion-icon>
       </ion-fab-button>
       
         <ion-fab-list side="top">
-          <ion-fab-button><ion-icon name="logo-linkedin"></ion-icon></ion-fab-button>
+          <ion-fab-button><ion-icon  name="logo-linkedin" defaultHref="https://www.linkedin.com" >  </ion-icon></ion-fab-button>
+
         </ion-fab-list>
         
         <ion-fab-list side="bottom">
@@ -78,5 +45,7 @@
   
     
 
-  <app-avatar-home></app-avatar-home>
+
 </ion-content>
+
+

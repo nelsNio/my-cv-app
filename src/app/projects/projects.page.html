@@ -1,9 +1,56 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>projects</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-header translucent >
+    <ion-toolbar color="dark" >
+      <ion-buttons slot="start"  >
+        <ion-back-button defaultHref="/"  ></ion-back-button>
+      </ion-buttons>
+      <ion-title >Proyectos</ion-title>
+    </ion-toolbar>
+    <ion-progress-bar type="indeterminate" color="dark"></ion-progress-bar>
 
-<ion-content>
+  </ion-header>
+
+<ion-content fullscreen>
+  <ion-card class="ion-text-center">
+    <ion-list>     
+      <ion-item>
+        <ion-label >Algoritmos Inteligentes Aplicados a la Salud</ion-label>
+
+        <ion-badge slot="end">22</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>RPA</ion-label>
+        <ion-badge color="secondary" slot="end">3</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Aplicaciones Python</ion-label>
+        <ion-badge color="tertiary" slot="end">20</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Aplicaciones JAVA</ion-label>
+        <ion-badge color="success" slot="end">80</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Despliegues AWS Lamda</ion-label>
+        <ion-badge color="warning" slot="end">7</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Despliegues AWS EC2</ion-label>
+        <ion-badge color="danger" slot="end">3</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Despliegues Heroku</ion-label>
+        <ion-badge color="light" slot="end">24</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Bases de Datos</ion-label>
+        <ion-badge color="medium" slot="end">14</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Analitica</ion-label>
+        <ion-badge color="dark" slot="end">4</ion-badge>
+      </ion-item>
+    </ion-list>
+
+  </ion-card>
 
 </ion-content>

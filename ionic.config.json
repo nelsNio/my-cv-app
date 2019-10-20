@@ -1,5 +1,7 @@
 {
   "name": "my-cv",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
