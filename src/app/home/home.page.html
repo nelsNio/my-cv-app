@@ -6,7 +6,7 @@
     
 
   <ion-card>
-      <img src="../assets/imgs/logo.png" />
+      <img src="../assets/imgs/logo.jpeg" />
     <ion-card-header>
         <ion-progress-bar type="indeterminate" color="dark" ></ion-progress-bar>
       
@@ -31,15 +31,15 @@
       </ion-fab-button>
       
         <ion-fab-list side="top">
-          <ion-fab-button><ion-icon  name="logo-linkedin" defaultHref="https://www.linkedin.com" >  </ion-icon></ion-fab-button>
+          <ion-fab-button  (click)="openLink()" > <ion-icon  name="logo-linkedin" >  </ion-icon></ion-fab-button>
 
         </ion-fab-list>
         
         <ion-fab-list side="bottom">
-          <ion-fab-button><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+          <ion-fab-button (click)="openLinkCvlac()" ><ion-icon name="information-circle-outline"></ion-icon></ion-fab-button>
         </ion-fab-list>
         <ion-fab-list side="end">
-          <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+          <ion-fab-button (click)="openLinkPage()"><ion-icon name="link"></ion-icon></ion-fab-button>
         </ion-fab-list>
     </ion-fab>
   

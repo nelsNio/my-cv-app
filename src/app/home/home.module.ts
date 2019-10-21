@@ -7,6 +7,7 @@ import {MenuBarPage} from '../menu-bar/menu-bar.page'
 import { HomePage } from './home.page';
 import {ItemsPage} from '../items/items.page'
 import { from } from 'rxjs';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { from } from 'rxjs';
       }
     ])
   ],
+  
   declarations: [HomePage,MenuBarPage,ItemsPage]
 })
 export class HomePageModule {}
