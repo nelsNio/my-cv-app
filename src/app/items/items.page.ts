@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class ItemsPage implements OnInit {
 
   constructor(private router:Router ) { }
+  
 
   viewProjects(){
     this.router.navigateByUrl("/projects")
